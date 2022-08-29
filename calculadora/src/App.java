@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        CalculatorFacade myCalculator = new CalculatorFacade(3, 2);
+        // System.out.println(myCalculator.additionOperation());
+        System.out.println(myCalculator.substractionOperation());
+        System.out.println(myCalculator.multiplicationOperation());
     }
 }
